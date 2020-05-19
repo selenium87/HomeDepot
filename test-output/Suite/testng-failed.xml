@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="emx" value="ppntstudentssss@gamil.com"/>
+    <parameter name="phx" value="5772634251"/>
+    <parameter name="psx" value="GjI7!Cl@44G"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="zcx" value="22306"/>
+    <classes>
+      <class name="Execution.Execution">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="two"/>
+          <include name="afterClass"/>
+          <include name="one"/>
+        </methods>
+      </class> <!-- Execution.Execution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
